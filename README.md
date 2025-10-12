@@ -21,13 +21,19 @@ This repository provides a ready-to-use Docker environment for running the **Pos
 ├── docker-compose.yml       # Defines PostgreSQL + pgAdmin services
 └── README.md                # This file
 ```
-
+https://github.com/ynb4gang/demo-db-air.git
 ---
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Build and Run
+Clone the repository and start the stack:
+```bash
+git clone https://github.com/ynb4gang/demo-db-air.git
+cd demo-db-air
+```
 
+Build and start all services
 ```bash
 docker-compose up --build
 ```
